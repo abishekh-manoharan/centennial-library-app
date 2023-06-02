@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/LinearLayoutCentered"
+    tools:context=".LibrarianSignUpActivity">
+
+    <TextView
+        style="@style/text1"
+        android:text="@string/librarian_sign_up"/>
+
+    <TextView
+        style="@style/text2"
+        android:text="@string/librarian_id_hint"/>
+    <EditText
+        android:id="@+id/librarianid_et"
+        style="@style/WrapContent"
+        android:inputType="number"
+        android:text="@string/_007" />
+
+    <TextView
+        style="@style/text2"
+        android:text="@string/first_name"/>
+    <EditText
+        android:id="@+id/librarian_fname_et"
+        style="@style/WrapContent"
+        android:text="@string/james"/>
+
+    <TextView
+        style="@style/text2"
+        android:text="@string/last_name"/>
+    <EditText
+        android:id="@+id/librarian_lname_et"
+        style="@style/WrapContent"
+        android:text="@string/bond"/>
+
+    <TextView
+        style="@style/text2"
+        android:text="@string/password"/>
+    <EditText
+        android:id="@+id/librarian_password_et"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:text="@string/casinoroyale"/>
+
+    <Button
+        android:id="@+id/librarian_signup_submit_btn"
+        style="@style/SubmitButton"/>
+    <Button
+        android:id="@+id/librarian_signup_clear_btn"
+        style="@style/ClearButton" />
+
+
+</LinearLayout>

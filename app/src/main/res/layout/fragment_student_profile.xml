@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+style="@style/LinearLayoutCentered"
+tools:context=".FragmentStudentProfile">
+
+<TextView
+    android:layout_marginTop="20dp"
+    style="@style/text1"
+    android:text="@string/student_profile"/>
+
+<TextView
+    android:layout_marginTop="15dp"
+    style="@style/text2"
+    android:text="@string/student_id"
+    android:textStyle="bold"/>
+<TextView
+    android:id="@+id/studentid_tv"
+    style="@style/WrapContent" />
+
+<TextView
+    style="@style/text2"
+    android:text="@string/first_name"
+    android:textStyle="bold"/>
+<TextView
+    android:id="@+id/student_fname_tv"
+    style="@style/WrapContent"
+    />
+
+<TextView
+    style="@style/text2"
+    android:text="@string/last_name"
+    android:textStyle="bold"/>
+<TextView
+    android:id="@+id/student_lname_tv"
+    style="@style/WrapContent" />
+
+<TextView
+    style="@style/text2"
+    android:text="@string/borrowed_book"
+    android:textStyle="bold"/>
+<TextView
+    android:id="@+id/borrowed_book_tv"
+    style="@style/WrapContent" />
+    
+
+</LinearLayout>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/lib_fiction_option"
+        android:title="@string/fiction">
+    </item>
+
+    <item
+        android:id="@+id/lib_nonfiction_option"
+        android:title="@string/non_fiction">
+    </item>
+
+    <item
+        android:id="@+id/lib_educational_option"
+        android:title="@string/educational">
+    </item>
+
+    <item
+        android:id="@+id/lib_history_option"
+        android:title="@string/history">
+    </item>
+
+    <item
+        android:id="@+id/lib_all_books_option"
+        android:title="@string/view_all_books">
+    </item>
+
+    <item
+        android:id="@+id/lib_add_book_option"
+        android:title="@string/add_new_book">
+    </item>
+
+
+</menu>

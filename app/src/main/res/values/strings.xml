@@ -1,0 +1,63 @@
+<resources>
+    <string name="app_name">Centennial Library</string>
+    <string name="login">Login</string>
+    <string name="student_login">Student Login</string>
+    <string name="student_sign_up">Student Sign Up</string>
+    <string name="librarian_login">Librarian Login</string>
+    <string name="student_login_tv">Student Login</string>
+    <string name="student_sign_up_tv">Student Sign Up</string>
+    <string name="mehwish">Mehwish</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="mehmood">Mehmood</string>
+    <string name="student_id">Student ID</string>
+    <string name="password">Password</string>
+    <string name="_301000111">301000111</string>
+    <string name="submit">Submit</string>
+    <string name="clear">Clear Fields</string>
+    <string name="emptystring" />
+    <string name="hello">Hello</string>
+    <string name="student_login_txt">Student Login</string>
+    <string name="student_id_hint">Student ID</string>
+    <string name="student_password_hint">Student Password</string>
+    <string name="librarian_sign_up">Librarian Sign Up</string>
+    <string name="librarian_id_hint">Librarian ID</string>
+    <string name="librarian_password_hint">Librarian Password</string>
+    <string name="james">James</string>
+    <string name="bond">Bond</string>
+    <string name="_007">007</string>
+    <string name="casinoroyale">CasinoRoyale</string>
+    <string name="fiction">Fiction</string>
+    <string name="non_fiction">Non-Fiction</string>
+    <string name="educational">Educational</string>
+    <string name="history">History</string>
+    <string name="add_new_book">Add New Book</string>
+    <string name="book_id">Book Id</string>
+    <string name="_0001">0001</string>
+    <string name="book_name">Book Name</string>
+    <string name="dune">Dune</string>
+    <string name="author">Author</string>
+    <string name="frank_herbert">Frank Herbert</string>
+    <string name="description">Description</string>
+    <string name="dune_description">A noble family becomes embroiled in a war for control over the galaxy\'s most valuable asset while its heir becomes troubled by visions of a dark future.</string>
+    <string name="genre">Genre</string>
+    <string name="quantity">Quantity</string>
+    <string name="_10">10</string>
+    <string name="title">Title</string>
+    <string-array name="genres">
+        <item>"Fiction"</item>
+        <item>"Non-Fiction"</item>
+        <item>"Educational""</item>
+        <item>"History"</item>
+    </string-array>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="_10_left">10 Left</string>
+    <string name="edit_existing_book">Edit Existing Book</string>
+    <string name="delete">Delete</string>
+    <string name="view_all_books">View All Books</string>
+    <string name="view_profile">View Profile</string>
+    <string name="student_profile">Student Profile</string>
+    <string name="borrowed_book">Borrowed Book</string>
+    <string name="all_books">All Books</string>
+</resources>

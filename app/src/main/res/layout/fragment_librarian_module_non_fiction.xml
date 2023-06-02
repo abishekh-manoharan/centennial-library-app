@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/LinearLayoutCentered"
+    tools:context=".FragmentNonFictionBooks">
+    <TextView
+        style="@style/text2"
+        android:text="@string/non_fiction"/>
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/librarian_non_fiction_recyclerview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:listitem="@layout/book_item"/>
+
+</LinearLayout>

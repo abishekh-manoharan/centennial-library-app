@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/LinearLayoutCentered"
+    tools:context=".LibrarianEditExistingBook">
+
+    <TextView
+        style="@style/text1"
+        android:text="@string/edit_existing_book"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"/>
+
+    <TextView
+        style="@style/text2"
+        android:text="@string/book_id"/>
+
+    <TextView
+        style="@style/text3"
+        android:id="@+id/bookid_edit_tv" />
+
+    <TextView
+        style="@style/text2"
+        android:text="@string/book_name"/>
+
+    <EditText
+        android:id="@+id/bookName_edit_et"
+        style="@style/WrapContent" />
+
+    <TextView
+        style="@style/text2"
+        android:text="@string/author"/>
+    <EditText
+        android:id="@+id/author_edit_et"
+        style="@style/WrapContent" />
+
+    <TextView
+        style="@style/text2"
+        android:text="@string/description"/>
+    <EditText
+        android:id="@+id/description_edit_et"
+        android:padding="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        style="@style/text2"
+        android:text="@string/genre"/>
+    <Spinner
+        android:id="@+id/book_genres_edit_spinner"
+        style="@style/WrapContent"
+        android:background="@android:drawable/btn_dropdown"
+        android:entries="@array/genres"
+        android:spinnerMode="dropdown"/>
+
+    <TextView
+        style="@style/text2"
+        android:text="@string/quantity"/>
+    <EditText
+        android:id="@+id/quantity_edit_et"
+        android:textAlignment="center"
+        android:layout_height="wrap_content"
+        android:layout_width="40dp"
+        android:inputType="number"
+        android:text="@string/_10"
+        android:layout_marginBottom="10dp"/>
+
+    <Button
+        android:id="@+id/edit_book_submit_btn"
+        style="@style/SubmitButton"/>
+
+    <Button
+        android:id="@+id/edit_book_delete_btn"
+        style="@style/WrapContent"
+        android:text="@string/delete"/>
+    <Button
+        android:id="@+id/edit_book_clear_btn"
+        style="@style/ClearButton" />
+
+</LinearLayout>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/LinearLayoutCentered"
+    tools:context=".LibrarianLoginActivity">
+
+    <TextView
+        style="@style/text1"
+        android:text="@string/librarian_login" />
+
+    <EditText
+        android:id="@+id/librarian_login_librarianid_et"
+        android:inputType="number"
+        style="@style/WrapContent"
+        android:hint="@string/librarian_id_hint"
+        android:text="@string/_007"/>
+
+    <EditText
+        android:id="@+id/librarian_login_password_et"
+        style="@style/WrapContent"
+        android:inputType="textPassword"
+        android:hint="@string/librarian_password_hint"
+        android:text="@string/casinoroyale"/>
+
+    <Button
+        android:id="@+id/librarian_login_submit_btn"
+        style="@style/SubmitButton"/>
+
+    <Button
+        android:id="@+id/librarian_login_clear_btn"
+        style="@style/ClearButton"/>
+</LinearLayout>

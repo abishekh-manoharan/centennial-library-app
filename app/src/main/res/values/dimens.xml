@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="text1TextSize">90px</dimen>
+    <dimen name="text2TextSize">60px</dimen>
+    <dimen name="text3TextSize">45px</dimen>
+</resources>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/student_fiction_option"
+        android:title="@string/fiction">
+    </item>
+
+    <item
+        android:id="@+id/student_nonfiction_option"
+        android:title="@string/non_fiction">
+    </item>
+
+    <item
+        android:id="@+id/student_educational_option"
+        android:title="@string/educational">
+    </item>
+
+    <item
+        android:id="@+id/student_history_option"
+        android:title="@string/history">
+    </item>
+    
+    <item
+        android:id="@+id/student_view_profile_option"
+        android:title="@string/view_profile">
+    </item>
+</menu>

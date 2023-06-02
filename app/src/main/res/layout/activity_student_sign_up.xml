@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/LinearLayoutCentered"
+    tools:context=".StudentSignUpActivity">
+
+    <TextView
+        android:layout_marginTop="20dp"
+        style="@style/text1"
+        android:text="@string/student_sign_up_tv"/>
+
+    <TextView
+        style="@style/text2"
+        android:layout_marginTop="10dp"
+        android:text="@string/student_id"/>
+    <EditText
+        android:id="@+id/studentid_et"
+        style="@style/WrapContent"
+        android:inputType="number"
+        android:text="@string/_301000111" />
+
+    <TextView
+        style="@style/text2"
+        android:text="@string/first_name"/>
+    <EditText
+        android:id="@+id/student_fname_et"
+        style="@style/WrapContent"
+        android:text="@string/mehwish"/>
+
+    <TextView
+        style="@style/text2"
+        android:text="@string/last_name"/>
+    <EditText
+        android:id="@+id/student_lname_et"
+        style="@style/WrapContent"
+        android:text="@string/mehmood"/>
+
+    <TextView
+        style="@style/text2"
+        android:text="@string/password"/>
+    <EditText
+        android:id="@+id/student_password_et"
+        style="@style/WrapContent"
+        android:inputType="textPassword"
+        android:hint="@string/student_password_hint"/>
+
+    <Button
+        android:layout_marginTop="15dp"
+        android:id="@+id/student_signup_submit_btn"
+        style="@style/SubmitButton"/>
+    <Button
+        android:id="@+id/student_signup_clear_btn"
+        style="@style/ClearButton" />
+
+
+</LinearLayout>

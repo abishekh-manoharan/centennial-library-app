@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/LinearLayoutCentered"
+    tools:context=".LibrarianAddNewBook">
+
+    <TextView
+        style="@style/text1"
+        android:text="@string/add_new_book"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="10dp"/>
+
+    <TextView
+        style="@style/text2"
+        android:text="@string/book_id" />
+    <EditText
+        android:id="@+id/bookid_et"
+        style="@style/WrapContent"
+        android:inputType="number"
+        android:text="@string/_0001" />
+
+    <TextView
+        style="@style/text2"
+        android:text="@string/book_name"/>
+    <EditText
+        android:id="@+id/bookName_et"
+        style="@style/WrapContent"
+        android:text="@string/dune"/>
+
+    <TextView
+        style="@style/text2"
+        android:text="@string/author"/>
+    <EditText
+        android:id="@+id/author_et"
+        style="@style/WrapContent"
+        android:text="@string/frank_herbert"/>
+
+    <TextView
+        style="@style/text2"
+        android:text="@string/description"/>
+    <EditText
+        android:id="@+id/description_et"
+        android:padding="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/dune_description"/>
+
+    <TextView
+        style="@style/text2"
+        android:text="@string/genre"/>
+    <Spinner
+        android:id="@+id/book_genres_spinner"
+        style="@style/WrapContent"
+        android:background="@android:drawable/btn_dropdown"
+        android:entries="@array/genres"
+        android:spinnerMode="dropdown"/>
+
+    <TextView
+        style="@style/text2"
+        android:text="@string/quantity"/>
+    <EditText
+        android:id="@+id/quantity_et"
+        android:textAlignment="center"
+        android:layout_height="wrap_content"
+        android:layout_width="40dp"
+        android:inputType="number"
+        android:text="@string/_10"
+        android:layout_marginBottom="10dp"/>
+
+    <Button
+        android:id="@+id/add_book_submit_btn"
+        style="@style/SubmitButton"/>
+    <Button
+        android:id="@+id/add_book_clear_btn"
+        style="@style/ClearButton" />
+
+</LinearLayout>

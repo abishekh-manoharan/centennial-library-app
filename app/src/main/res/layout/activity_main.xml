@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/LinearLayoutCentered"
+    android:padding="10dp"
+    tools:context=".MainActivity">
+
+    <ImageView
+        style="@style/WrapContent"
+        android:src="@drawable/centennial_library_logo" />
+
+    <Button
+        android:id="@+id/studentLoginBtn"
+        style="@style/WrapContent"
+        android:text="@string/student_login"/>
+
+    <Button
+        android:id="@+id/studentSignupBtn"
+        style="@style/WrapContent"
+        android:layout_marginBottom="13dp"
+        android:text="@string/student_sign_up"/>
+
+    <Button
+        android:id="@+id/librarianLoginBtn"
+        style="@style/WrapContent"
+        android:text="@string/librarian_login"/>
+
+    <Button
+        android:id="@+id/librarianSignUpBtn"
+        style="@style/WrapContent"
+        android:text="@string/librarian_sign_up"/>
+
+</LinearLayout>

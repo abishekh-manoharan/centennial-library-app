@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/LinearLayoutCentered"
+    android:layout_height="match_parent">
+
+    <TextView
+        style="@style/text1"
+        android:text="@string/student_login_txt" />
+
+    <EditText
+        android:id="@+id/student_login_studentid_et"
+        android:inputType="number"
+        style="@style/WrapContent"
+        android:text="@string/_301000111"/>
+
+    <EditText
+        android:id="@+id/student_login_password_et"
+        style="@style/WrapContent"
+        android:inputType="textPassword"
+        android:hint="@string/student_password_hint" />
+
+    <Button
+        android:id="@+id/student_login_submit_btn"
+        style="@style/SubmitButton"/>
+
+    <Button
+        android:id="@+id/student_login_clear_btn"
+        style="@style/ClearButton"/>
+</LinearLayout>
